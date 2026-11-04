@@ -2,6 +2,7 @@ import { Navbar } from "@/components/navbar"
 import { HeroSection } from "@/components/sections/hero"
 import { AboutSection } from "@/components/sections/about"
 import { ServicesSection } from "@/components/sections/services"
+import { EcosystemSection } from "@/components/sections/ecosystem"
 import { TeamSection } from "@/components/sections/team"
 import { FAQSection } from "@/components/sections/faq"
 import { ContactSection } from "@/components/sections/contact"
@@ -14,6 +15,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <ServicesSection />
+      <EcosystemSection />
       <TeamSection />
       <FAQSection />
       <ContactSection />

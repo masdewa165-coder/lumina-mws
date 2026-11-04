@@ -29,6 +29,7 @@ const navLinks = [
       { name: "Pendidikan", href: "/#pendidikan" },
     ]
   },
+  { name: "Ekosistem", href: "/#ekosistem" },
   { name: "Tim", href: "/#tim" },
   { name: "Karir", href: "/karir" },
   { name: "Kontak", href: "/#kontak" },

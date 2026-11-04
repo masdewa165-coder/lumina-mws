@@ -22,6 +22,7 @@ const footerLinks = {
   ],
   perusahaan: [
     { name: "Tentang Kami", href: "/tentang-kami" },
+    { name: "Ekosistem Digital", href: "/#ekosistem" },
     { name: "Tim", href: "/#tim" },
     { name: "Karir", href: "/karir" },
     { name: "Visi & Misi", href: "/tentang-kami" },
