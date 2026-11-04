@@ -30,8 +30,8 @@ const coreValues = [
 
 const businessPillars = [
   "Kantor Hukum Mahadewa & Rekan",
-  "LPH Salatiga YIJA & P3H",
-  "Lumina: Layanan Perizinan & Pajak",
+  "Halal Center Salatiga",
+  "Lumina: Layanan Perizinan & Pertanahan",
   "Lumita Digital & IT Solutions",
   "Nahnu Ansorullah: Pendidikan & Keagamaan"
 ]

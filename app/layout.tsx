@@ -18,7 +18,7 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL('https://lumina-mws.com'),
   title: 'PT Mahadewa Widya Sentosa | MWS Group - Solusi Terintegrasi untuk Bisnis',
-  description: 'PT Mahadewa Widya Sentosa adalah perusahaan induk penyedia layanan terpadu: Konsultan Hukum, Sertifikasi Halal, Perizinan & Perpajakan, IT Solutions, dan Pendidikan Keagamaan di Indonesia.',
+  description: 'PT Mahadewa Widya Sentosa adalah perusahaan induk penyedia layanan terpadu: Konsultan Hukum, Sertifikasi Halal, Perizinan & Pertanahan, IT Solutions, dan Pendidikan Keagamaan di Indonesia.',
   keywords: ['MWS Group', 'PT Mahadewa Widya Sentosa', 'Konsultan Hukum', 'Sertifikasi Halal', 'Perizinan Usaha', 'IT Solutions', 'Legal Corporate', 'Indonesia'],
   authors: [{ name: 'PT Mahadewa Widya Sentosa' }],
   openGraph: {

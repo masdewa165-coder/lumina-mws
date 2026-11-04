@@ -64,8 +64,8 @@ const faqCategories = [
     icon: ShieldCheck,
     faqs: [
       {
-        question: "Apa itu LPH YIJA Cabang Salatiga?",
-        answer: "LPH (Lembaga Pemeriksa Halal) YIJA Cabang Salatiga adalah unit kami yang bertugas melakukan verifikasi teknis dan pemeriksaan mendalam terhadap kehalalan produk. Kami terakreditasi untuk melakukan audit bahan baku, proses produksi, dan verifikasi dokumen sebagai dasar penetapan fatwa halal oleh MUI."
+        question: "Apa itu Halal Center Salatiga?",
+        answer: "Halal Center Salatiga mendampingi UMK dan pelaku usaha di Salatiga dan sekitarnya untuk memperoleh sertifikat halal melalui pendampingan PPH jalur Self-Declare, konsultasi jalur reguler, serta pelatihan dan edukasi halal."
       },
       {
         question: "Siapa yang wajib memiliki sertifikat halal?",
@@ -73,26 +73,26 @@ const faqCategories = [
       },
       {
         question: "Apa perbedaan sertifikasi halal reguler dan self declare?",
-        answer: "Sertifikasi reguler dilakukan dengan audit lengkap oleh LPH dan penetapan fatwa MUI. Sedangkan Self Declare (Pernyataan Pelaku Usaha Halal) adalah skema khusus untuk Usaha Mikro dan Kecil (UMK) yang lebih sederhana, namun tetap melalui proses verifikasi dan validasi oleh Pendamping PPH."
+        answer: "Jalur Self-Declare ditujukan bagi usaha mikro dan kecil yang memenuhi persyaratan, dengan pendampingan Proses Produk Halal (PPH). Jalur reguler melayani proses sertifikasi dengan konsultasi dan pemeriksaan bersama LPH."
       },
       {
         question: "Berapa lama proses sertifikasi halal?",
-        answer: "Untuk skema reguler, proses memakan waktu 2-4 bulan tergantung kompleksitas produk dan kelengkapan dokumen. Untuk skema Self Declare UMK, prosesnya lebih cepat sekitar 2-4 minggu. Kami akan mendampingi Anda agar proses berjalan lancar."
+        answer: "Lama proses bergantung pada skema sertifikasi, jenis produk, dan kelengkapan dokumen. Halal Center Salatiga dapat membantu Anda memahami tahapan yang sesuai untuk usaha Anda."
       },
       {
         question: "Apakah ada pelatihan tentang sistem jaminan produk halal?",
-        answer: "Ya, kami menyediakan In-House Training bagi tim internal perusahaan mengenai regulasi terbaru Jaminan Produk Halal, pendampingan pembuatan Manual SJPH, serta update regulasi dari BPJPH dan standar halal nasional/internasional."
+        answer: "Ya. Halal Center Salatiga menyediakan pelatihan penyelia halal dan juru sembelih halal, serta edukasi Sistem Jaminan Produk Halal (SJPH) bagi pelaku usaha dan instansi."
       }
     ]
   },
   {
     id: "perizinan",
-    name: "Perizinan & Pajak",
+    name: "Perizinan & Pertanahan",
     icon: FileCheck,
     faqs: [
       {
         question: "Apa saja layanan Lumina Everything Solutions?",
-        answer: "Lumina menyediakan: (1) Layanan Perizinan Usaha - NIB, izin sektoral, perizinan operasional; (2) Administrasi Pertanahan - sertifikasi tanah, balik nama, pemecahan sertifikat, KKPR; (3) Manajemen Pajak - pelaporan SPT, tax planning, audit pajak, pengurusan NPWP/PKP."
+        answer: "Lumina melayani pengurusan perizinan usaha seperti NIB dan izin sektoral, serta administrasi pertanahan. Layanan perpajakan sementara belum tersedia (Coming Soon)."
       },
       {
         question: "Berapa lama proses pengurusan NIB?",
@@ -103,8 +103,8 @@ const faqCategories = [
         answer: "Ya, kami melayani sertifikasi tanah dari dasar (Girik/Letter C) menjadi Sertifikat Hak Milik (SHM). Kami juga membantu balik nama, pemecahan sertifikat, pengecekan keabsahan di BPN, dan pengurusan KKPR (Kesesuaian Kegiatan Pemanfaatan Ruang)."
       },
       {
-        question: "Layanan pajak apa saja yang tersedia?",
-        answer: "Kami melayani: pelaporan SPT Masa bulanan (PPN, PPh 21, 23, 25), SPT Tahunan Orang Pribadi & Badan, tax planning/perencanaan pajak legal, pendampingan audit & sengketa pajak, serta pengurusan NPWP dan pengukuhan PKP."
+        question: "Apakah layanan perpajakan sudah tersedia?",
+        answer: "Layanan perpajakan sementara belum tersedia dan masih dalam persiapan (Coming Soon)."
       },
       {
         question: "Apakah data dokumen saya aman?",

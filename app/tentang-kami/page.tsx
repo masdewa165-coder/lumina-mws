@@ -72,13 +72,13 @@ const businessPillars = [
   },
   {
     icon: ShieldCheck,
-    title: "LPH Salatiga YIJA & P3H",
-    description: "Sebagai bentuk dukungan terhadap industri halal nasional, kami melayani pemeriksaan dan pendampingan Sertifikasi Halal serta Pendamping Proses Produk Halal (P3H). Kami membantu pelaku usaha memastikan produk mereka memenuhi standar syariat dengan proses yang transparan dan akuntabel."
+    title: "Halal Center Salatiga",
+    description: "Kami mendampingi UMK dan pelaku usaha dalam proses sertifikasi halal melalui pendampingan PPH jalur Self-Declare, konsultasi sertifikasi reguler, serta pelatihan dan edukasi Sistem Jaminan Produk Halal."
   },
   {
     icon: FileCheck,
-    title: "Lumina: Layanan Perizinan, Pertanahan & Perpajakan",
-    description: "Lumina adalah partner strategis dalam administrasi bisnis dan aset. Kami melayani pengurusan perizinan usaha (OSS/NIB), solusi administrasi pertanahan, hingga manajemen perpajakan (tax services). Dari pendampingan kepatuhan pajak hingga perencanaan fiskal, kami memastikan operasional bisnis Anda berjalan tanpa kendala birokrasi dan pajak."
+    title: "Lumina: Layanan Perizinan & Pertanahan",
+    description: "Lumina adalah partner strategis dalam administrasi bisnis dan aset, termasuk pengurusan perizinan usaha (OSS/NIB) dan administrasi pertanahan. Layanan perpajakan sementara belum tersedia (Coming Soon)."
   },
   {
     icon: Monitor,

@@ -9,7 +9,8 @@ import {
   Monitor, 
   BookOpen,
   ArrowRight,
-  CheckCircle2
+  CheckCircle2,
+  ArrowUpRight
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
@@ -34,16 +35,17 @@ const services = [
   {
     id: "halal",
     icon: Shield,
-    title: "LPH YIJA Salatiga & P3H",
+    title: "Halal Center Salatiga",
     subtitle: "Sertifikasi Halal",
-    description: "Mendukung industri halal nasional dengan pelayanan pemeriksaan dan pendampingan Sertifikasi Halal serta Pendamping Proses Produk Halal (P3H).",
+    description: "Mendampingi UMK dan pelaku usaha di Salatiga dan sekitarnya dalam proses sertifikasi halal melalui pendampingan PPH jalur Self-Declare, konsultasi sertifikasi reguler, serta pelatihan dan edukasi halal.",
     features: [
-      "Pemeriksaan Bahan Baku & Proses",
-      "Audit Fasilitas Produksi",
-      "Pendampingan UMK (Self Declare)",
-      "Konsultasi & Pelatihan Halal",
-      "Penyusunan Manual SJPH"
+      "Pendampingan PPH jalur Self-Declare untuk UMK",
+      "Konsultasi sertifikasi halal jalur reguler",
+      "Pelatihan penyelia halal dan juru sembelih halal",
+      "Edukasi Sistem Jaminan Produk Halal (SJPH)",
+      "Pendampingan bagi UMK dan pelaku usaha"
     ],
+    applicationUrl: "https://halal-center-salatiga.vercel.app/",
     color: "bg-green-100",
     iconColor: "text-green-700"
   },
@@ -51,15 +53,16 @@ const services = [
     id: "perizinan",
     icon: FileCheck,
     title: "Lumina Everything Solutions",
-    subtitle: "Perizinan, Pertanahan & Perpajakan",
-    description: "Partner strategis dalam administrasi bisnis dan aset. Melayani pengurusan perizinan usaha, solusi administrasi pertanahan, hingga manajemen perpajakan.",
+    subtitle: "Perizinan & Pertanahan",
+    description: "Partner strategis dalam administrasi bisnis dan aset melalui pengurusan perizinan usaha serta layanan administrasi pertanahan.",
     features: [
       "Pengurusan NIB & Izin Usaha (OSS)",
+      "Pengurusan izin sektoral dan operasional",
       "Sertifikasi & Balik Nama Tanah",
-      "Pelaporan Pajak (SPT Masa & Tahunan)",
-      "Tax Planning & Audit Pajak",
+      "Administrasi Pertanahan",
       "Perizinan Tata Ruang (KKPR)"
     ],
+    taxComingSoon: true,
     color: "bg-blue-100",
     iconColor: "text-blue-700"
   },
@@ -149,12 +152,26 @@ export function ServicesSection() {
                     {service.description}
                   </p>
                   <div className="mt-6">
-                    <Button asChild variant="outline" className="rounded-full">
-                      <Link href="#kontak">
-                        Konsultasi Gratis
-                        <ArrowRight className="ml-2 w-4 h-4" />
-                      </Link>
-                    </Button>
+                    {"applicationUrl" in service && service.applicationUrl ? (
+                      <Button asChild variant="outline" className="rounded-full">
+                        <a href={service.applicationUrl} target="_blank" rel="noopener noreferrer">
+                          Ajukan Sertifikasi Halal
+                          <ArrowUpRight className="ml-2 w-4 h-4" />
+                        </a>
+                      </Button>
+                    ) : (
+                      <Button asChild variant="outline" className="rounded-full">
+                        <Link href="#kontak">
+                          Konsultasi Gratis
+                          <ArrowRight className="ml-2 w-4 h-4" />
+                        </Link>
+                      </Button>
+                    )}
+                    {"taxComingSoon" in service && service.taxComingSoon && (
+                      <p className="mt-4 text-sm text-muted-foreground" role="status">
+                        Layanan perpajakan sementara belum tersedia (Coming Soon).
+                      </p>
+                    )}
                   </div>
                 </div>
 

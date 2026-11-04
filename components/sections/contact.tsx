@@ -45,7 +45,7 @@ const contactInfo = [
 const serviceOptions = [
   "Konsultasi Hukum & Legal",
   "Sertifikasi Halal",
-  "Perizinan & Pajak",
+  "Perizinan & Pertanahan",
   "IT Solutions",
   "Pendidikan & Keagamaan",
   "Lainnya"

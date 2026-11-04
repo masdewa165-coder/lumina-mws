@@ -24,7 +24,7 @@ const navLinks = [
     submenu: [
       { name: "Konsultan Hukum", href: "/#hukum" },
       { name: "Sertifikasi Halal", href: "/#halal" },
-      { name: "Perizinan & Pajak", href: "/#perizinan" },
+      { name: "Perizinan & Pertanahan", href: "/#perizinan" },
       { name: "IT Solutions", href: "/#it" },
       { name: "Pendidikan", href: "/#pendidikan" },
     ]
