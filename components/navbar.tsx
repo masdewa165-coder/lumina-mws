@@ -32,6 +32,7 @@ const navLinks = [
   { name: "Ekosistem", href: "/#ekosistem" },
   { name: "Tim", href: "/#tim" },
   { name: "Karir", href: "/karir" },
+  { name: "Formulir Halal", href: "/formulir-halal" },
   { name: "Kontak", href: "/#kontak" },
 ]
 

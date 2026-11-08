@@ -16,6 +16,7 @@ const footerLinks = {
   layanan: [
     { name: "Konsultan Hukum", href: "/#hukum" },
     { name: "Sertifikasi Halal", href: "/#halal" },
+    { name: "Formulir Halal", href: "/formulir-halal" },
     { name: "Perizinan & Pertanahan", href: "/#perizinan" },
     { name: "IT Solutions", href: "/#it" },
     { name: "Pendidikan", href: "/#pendidikan" },
